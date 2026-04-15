@@ -1,0 +1,18 @@
+id = "forester"
+name = "Forester"
+version = "0.0.1"
+schema_version = 1
+authors = ["Brian"]
+description = "Minimal Forester language support for Zed"
+repository = "https://github.com/brian/zed-forester"
+
+[grammars.forester]
+repository = "file:///home/brian/projects/zed-forester/tree-sitter-forester"
+rev = "5fe61ab9ba09c7528f0d729caf5770b399b1c104"
+
+[language_servers.forester]
+name = "forester lsp"
+languages = ["Forester"]
+
+[language_servers.forester.language_ids]
+"Forester" = "forester"
