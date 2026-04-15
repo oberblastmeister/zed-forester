@@ -1,5 +1,4 @@
-/target/
-
-/tree-sitter-forester/node_modules/
-
 .DS_Store
+*.wasm
+/target
+/grammars

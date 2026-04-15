@@ -7,8 +7,8 @@ description = "Minimal Forester language support for Zed"
 repository = "https://github.com/brian/zed-forester"
 
 [grammars.forester]
-repository = "file:///home/brian/projects/zed-forester/tree-sitter-forester"
-rev = "5fe61ab9ba09c7528f0d729caf5770b399b1c104"
+repository = "https://github.com/oberblastmeister/tree-sitter-forester"
+rev = "b90e71e7c9f71ef8fc7ce9f404ecdc102681999d"
 
 [language_servers.forester]
 name = "forester lsp"
